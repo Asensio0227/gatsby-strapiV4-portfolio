@@ -1,8 +1,7 @@
+import { Link, graphql, useStaticQuery } from "gatsby"
 import React, { useState } from "react"
-import Title from "./Title"
 import { FaAngleDoubleRight } from "react-icons/fa"
-import { graphql, useStaticQuery } from "gatsby"
-import { Link } from "gatsby"
+import Title from "./Title"
 
 const query = graphql`
   query {

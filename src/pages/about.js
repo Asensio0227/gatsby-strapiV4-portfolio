@@ -1,7 +1,7 @@
-import React from "react"
 import { graphql } from "gatsby"
-import Title from "../components/Title"
+import React from "react"
 import Seo from "../components/Seo"
+import Title from "../components/Title"
 
 const About = ({ data }) => {
   const {

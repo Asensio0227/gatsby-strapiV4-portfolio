@@ -1,5 +1,5 @@
-import React from "react"
 import { graphql } from "gatsby"
+import React from "react"
 import Projects from "../components/Projects"
 import Seo from "../components/Seo"
 
@@ -8,6 +8,7 @@ const ProjectsPage = ({
     allStrapiProject: { nodes: projects },
   },
 }) => {
+  console.log(projects)
   return (
     <>
       <Seo title="Projects" />
